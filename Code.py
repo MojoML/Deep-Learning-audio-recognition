@@ -3,6 +3,8 @@
 
 # In[ ]:
 
+# This is a project for audio word recognition using a deep neural network 
+
 
 import pandas as pd
 import numpy as np
