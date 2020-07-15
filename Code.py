@@ -29,10 +29,10 @@ from keras.layers.advanced_activations import LeakyReLU
 
 # --------------------- LOAD DATA ------------------------ #
 
-features = np.load("data/feat.npy", allow_pickle = True)
-path = np.load("data/path.npy", allow_pickle = True)
-train = pd.read_csv("data/train.csv", delimiter = ",")
-test = pd.read_csv("data/test.csv", delimiter = ",")
+features = np.load("feat.npy", allow_pickle = True)
+path = np.load("path.npy", allow_pickle = True)
+train = pd.read_csv("train(1).csv", delimiter = ",")
+test = pd.read_csv("test(1).csv", delimiter = ",")
 
 
 # In[ ]:
