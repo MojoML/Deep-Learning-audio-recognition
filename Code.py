@@ -31,8 +31,8 @@ from keras.layers.advanced_activations import LeakyReLU
 
 features = np.load("feat.npy", allow_pickle = True)
 path = np.load("path.npy", allow_pickle = True)
-train = pd.read_csv("train(1).csv", delimiter = ",")
-test = pd.read_csv("test(1).csv", delimiter = ",")
+train = pd.read_csv("train.csv", delimiter = ",")
+test = pd.read_csv("test.csv", delimiter = ",")
 
 
 # In[ ]:
