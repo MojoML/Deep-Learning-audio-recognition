@@ -8,6 +8,7 @@ Data files
 The dataset is available for download on https://surfdrive.surf.nl/files/index.php/s/A91xgk7B5kXNvfJ. 
 
 It contains the following files:
+
 • wav.tgz: a compressed directory with all the recordings (training and test
 data) in the form of wav files.
 
@@ -48,5 +49,4 @@ Some hints:
 •You can use the provided MFCC features for the spoken utterances, or
 you can extract your own features from the wav files.
 
-•Use part of the provided training data as a validation set. Only submit to
-Codalab after validating your results on this your validation data.
+•Use part of the provided training data as a validation set. 
